@@ -1,0 +1,46 @@
+{
+  "created_utc": "2026-09-29T18:43:39.071934+00:00",
+  "python": "3.13.9",
+  "numpy": "2.3.5",
+  "matplotlib": "3.10.6",
+  "platform": "Windows",
+  "machine": "AMD64",
+  "command": "python train.py --epochs 20 --batch-size 64 --hidden 128 64 --optimizer adam --learning-rate 0.001 --initialization he --dropout 0.2 --l2 0.0001 --dtype float64 --seed 42 --output results/mnist",
+  "blas_thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1"
+  },
+  "model_config": {
+    "hidden": [
+      128,
+      64
+    ],
+    "activation": "relu",
+    "initialization": "he",
+    "dropout": 0.2,
+    "l2": 0.0001,
+    "optimizer": "adam",
+    "learning_rate": 0.001,
+    "momentum": 0.9,
+    "beta1": 0.9,
+    "beta2": 0.999,
+    "epsilon": 1e-08,
+    "dtype": "float64"
+  },
+  "seed": 42,
+  "split_seed": 42,
+  "epochs": 20,
+  "batch_size": 64,
+  "validation_size": 5000,
+  "train_limit": null,
+  "samples": {
+    "train": 55000,
+    "validation": 5000,
+    "test": 10000
+  },
+  "train_seconds": 376.6330021000467,
+  "checkpoint": "model.npz",
+  "checkpoint_policy": "final_epoch",
+  "parameter_count": 109386
+}

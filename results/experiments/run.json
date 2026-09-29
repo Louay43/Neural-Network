@@ -1,0 +1,26 @@
+{
+  "created_utc": "2026-09-29T18:37:19.158834+00:00",
+  "python": "3.13.9",
+  "numpy": "2.3.5",
+  "matplotlib": "3.10.6",
+  "platform": "Windows",
+  "machine": "AMD64",
+  "command": "python experiments.py --epochs 5 --train-limit 12000 --seeds 42 43 44",
+  "blas_thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1"
+  },
+  "epochs": 5,
+  "batch_size": 64,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "split_seed": 42,
+  "train_samples": 12000,
+  "validation_samples": 5000,
+  "test_evaluated": false,
+  "optimizer_note": "Optimizer comparisons use specified, different learning-rate presets; no exhaustive tuning."
+}

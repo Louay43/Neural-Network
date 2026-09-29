@@ -1,0 +1,76 @@
+{
+  "ReLU": [
+    {
+      "tensor": "dense_0.weights",
+      "checked": 12,
+      "max_absolute_error": 2.0750123841395407e-11,
+      "relative_l2_error": 2.657625671416558e-11,
+      "passed": true
+    },
+    {
+      "tensor": "dense_0.biases",
+      "checked": 4,
+      "max_absolute_error": 1.084297235331988e-11,
+      "relative_l2_error": 2.2494298602208205e-11,
+      "passed": true
+    },
+    {
+      "tensor": "dense_1.weights",
+      "checked": 12,
+      "max_absolute_error": 1.916417025071837e-11,
+      "relative_l2_error": 1.6390917280820668e-11,
+      "passed": true
+    },
+    {
+      "tensor": "dense_1.biases",
+      "checked": 3,
+      "max_absolute_error": 7.481515407192774e-12,
+      "relative_l2_error": 1.6721966391803593e-11,
+      "passed": true
+    },
+    {
+      "tensor": "inputs",
+      "checked": 15,
+      "max_absolute_error": 1.1851186698663696e-11,
+      "relative_l2_error": 2.089276673123969e-11,
+      "passed": true
+    }
+  ],
+  "Sigmoid": [
+    {
+      "tensor": "dense_0.weights",
+      "checked": 12,
+      "max_absolute_error": 1.2244177893805386e-11,
+      "relative_l2_error": 3.530769038502454e-11,
+      "passed": true
+    },
+    {
+      "tensor": "dense_0.biases",
+      "checked": 4,
+      "max_absolute_error": 5.98391822204114e-12,
+      "relative_l2_error": 1.5468936991264261e-10,
+      "passed": true
+    },
+    {
+      "tensor": "dense_1.weights",
+      "checked": 12,
+      "max_absolute_error": 9.555091960711248e-12,
+      "relative_l2_error": 3.773208068931166e-11,
+      "passed": true
+    },
+    {
+      "tensor": "dense_1.biases",
+      "checked": 3,
+      "max_absolute_error": 1.3292277001308861e-11,
+      "relative_l2_error": 9.100061123317206e-11,
+      "passed": true
+    },
+    {
+      "tensor": "inputs",
+      "checked": 15,
+      "max_absolute_error": 9.2961888187304e-12,
+      "relative_l2_error": 1.0757644461478286e-10,
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "unit_tests_passed": 28,
+  "independent_checkpoint_evaluation_matches": true,
+  "test_predictions": 10000,
+  "test_correct": 9816,
+  "test_errors": 184,
+  "parameter_count": 109386,
+  "history_epochs": 20,
+  "experiment_runs": 30,
+  "wheel_build_passed": true,
+  "readme_local_links_verified": 20,
+  "figures_visually_reviewed": [
+    "learning_curves.png",
+    "confusion_matrix.png",
+    "correct_predictions.png",
+    "incorrect_predictions.png",
+    "experiments/comparison.png"
+  ]
+}

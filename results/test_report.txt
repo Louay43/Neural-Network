@@ -1,0 +1,33 @@
+test_relu (test_activations.ActivationTests.test_relu) ... ok
+test_sigmoid_extreme_values (test_activations.ActivationTests.test_sigmoid_extreme_values) ... ok
+test_softmax_shift_invariance_and_jacobian (test_activations.ActivationTests.test_softmax_shift_invariance_and_jacobian) ... ok
+test_idx_split_normalization_and_reproducibility (test_data.DataTests.test_idx_split_normalization_and_reproducibility) ... ok
+test_rejects_truncated_payload (test_data.DataTests.test_rejects_truncated_payload) ... ok
+test_complete_chain_including_l2_and_inputs (test_gradients.GradientTests.test_complete_chain_including_l2_and_inputs) ... ok
+test_dropout_derivative_with_fixed_mask (test_gradients.GradientTests.test_dropout_derivative_with_fixed_mask) ... ok
+test_rejects_float32_and_stochastic_dropout (test_gradients.GradientTests.test_rejects_float32_and_stochastic_dropout) ... ok
+test_forward_backward_hand_calculated (test_layers.DenseTests.test_forward_backward_hand_calculated) ... ok
+test_initialization_variance_and_reproducibility (test_layers.DenseTests.test_initialization_variance_and_reproducibility) ... ok
+test_invalid_inputs_and_missing_cache (test_layers.DenseTests.test_invalid_inputs_and_missing_cache) ... ok
+test_mask_scaling_backward_and_evaluation (test_layers.DropoutTests.test_mask_scaling_backward_and_evaluation) ... ok
+test_zero_dropout_and_invalid_rates (test_layers.DropoutTests.test_zero_dropout_and_invalid_rates) ... ok
+test_extreme_logits_retain_loss_and_gradient (test_losses.LossTests.test_extreme_logits_retain_loss_and_gradient) ... ok
+test_integer_logits_preserve_soft_targets (test_losses.LossTests.test_integer_logits_preserve_soft_targets) ... ok
+test_invalid_labels (test_losses.LossTests.test_invalid_labels) ... ok
+test_separate_and_fused_derivatives_agree (test_losses.LossTests.test_separate_and_fused_derivatives_agree) ... ok
+test_sparse_and_one_hot (test_losses.LossTests.test_sparse_and_one_hot) ... ok
+test_checkpoint_roundtrip (test_network.NetworkTests.test_checkpoint_roundtrip) ... ok
+test_evaluation_batch_weighting_and_dropout_off (test_network.NetworkTests.test_evaluation_batch_weighting_and_dropout_off) ... ok
+test_input_validation (test_network.NetworkTests.test_input_validation) ... ok
+test_learns_nonlinear_data_and_reproduces_seed (test_network.NetworkTests.test_learns_nonlinear_data_and_reproduces_seed) ... ok
+test_adam_multistep_and_bias_correction (test_optimizers.OptimizerTests.test_adam_multistep_and_bias_correction) ... ok
+test_invalid_settings_and_nonfinite_gradient (test_optimizers.OptimizerTests.test_invalid_settings_and_nonfinite_gradient) ... ok
+test_momentum_accumulates (test_optimizers.OptimizerTests.test_momentum_accumulates) ... ok
+test_sgd (test_optimizers.OptimizerTests.test_sgd) ... ok
+test_dropout_ablation_preserves_initial_weights (test_workflows.WorkflowTests.test_dropout_ablation_preserves_initial_weights) ... ok
+test_one_hot_and_sparse_training_match (test_workflows.WorkflowTests.test_one_hot_and_sparse_training_match) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 0.184s
+
+OK
